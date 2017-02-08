@@ -8,11 +8,7 @@ Mac OS
 ------
 <b>STEP 01.</b>
 
-You can run this on your terminal, this will download file.
-```
-curl -O https://github.com/ChathuraHettiarachchi/CustomFolderStructure/blob/master/initmodule.sh
-```
-or you can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.sh" download="initmodule">download</a> initmodule.sh, save it as All files and with the extension .sh
+You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.sh" download="initmodule">download</a> initmodule.sh, save it as All files and with the extension .sh
 ```
 initmodule.sh
 ```
