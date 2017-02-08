@@ -73,7 +73,13 @@ enjoy :)
 
 <img width="1024" alt="aaa" src="https://cloud.githubusercontent.com/assets/13764097/22692260/1da6a5f2-ed64-11e6-8413-b98a2cd548e1.png">
 
-
+Changelog
+---------
+* Added folder structure
+* Fix support for Mac - initmodule.sh
+* Fix support for Windows - initmodule.bat
+* Added Constant.java
+</br>
 ## Author
 
 Chathura Hettiarachchi, chathura93@yahoo.com
