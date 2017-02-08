@@ -42,7 +42,8 @@ You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomF
 
 <b>STEP 02.</b>
 
-Just only need to run initmodule.bat with administrator.
+Just only need to run initmodule.bat with admin privilages. 
+<b>To do that, right click on initmodule.bat run as Administrator.</b>
 
 </br>
 
@@ -72,6 +73,13 @@ enjoy :)
 
 <img width="1024" alt="aaa" src="https://cloud.githubusercontent.com/assets/13764097/22692260/1da6a5f2-ed64-11e6-8413-b98a2cd548e1.png">
 
+Changelog
+---------
+* Added folder structure
+* Fix support for Mac - initmodule.sh
+* Fix support for Windows - initmodule.bat
+* Added Constant.java
+</br>
 
 ## Author
 
