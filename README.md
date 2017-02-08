@@ -27,6 +27,11 @@ NOTE: Please do not use sudo access
 
 Windows
 -------
+You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.bat" download="initmodule">download</a> initmodule.bat, save it as All files and with the extension .bat
+
+Just only need to run initmodule.bat with administrator.
+
+if any error occured or you don't have git installed, you can try the mannual way too
 
 Just clone this repo and copy "FidenzModelProject" to following location
 ```
