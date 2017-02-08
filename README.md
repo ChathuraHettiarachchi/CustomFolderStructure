@@ -35,9 +35,16 @@ then all you need to do is run the bash script.
 
 Windows
 -------
+
+<b>STEP 01.</b>
+
 You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.bat" download="initmodule">download</a> initmodule.bat, save it as All files and with the extension .bat
 
+<b>STEP 02.</b>
+
 Just only need to run initmodule.bat with administrator.
+
+</br>
 
 if any error occured or you don't have git installed, you can try the mannual way too
 
