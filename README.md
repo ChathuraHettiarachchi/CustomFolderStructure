@@ -20,15 +20,21 @@ NOTE: Please do not use sudo access
   ./initmodule.sh
 ```
 
-If any crash happen you can mannualy clone this repo and copy "FidenzModelProject" to
-```
-  Android Studio.app/Contents/plugins/android/lib/templates/activities/
-```
-
 Windows
 -------
 
 Just clone this repo and copy "FidenzModelProject" to following location
+```
+  C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\
+```
+
+Direct copy paths (Mac OS, Windows)
+-----------------------------------
+(Mac OS) If any crash happen you can mannualy clone this repo and copy "FidenzModelProject" to
+```
+  Android Studio.app/Contents/plugins/android/lib/templates/activities/
+```
+(Windows) Just clone this repo and copy "FidenzModelProject" to following location
 ```
   C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\
 ```
