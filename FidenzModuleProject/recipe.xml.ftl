@@ -61,6 +61,10 @@
     <instantiate from="root/src/app_package/services/api/APIInterface.java.ftl"
     			   to="${escapeXmlAttribute(srcOut)}/services/api/APIInterface.java" />
 
+    <!-- create services/api/ folder and service generator java-->
+    <instantiate from="root/src/app_package/services/api/ServiceGenerator.java.ftl"
+             to="${escapeXmlAttribute(srcOut)}/services/api/ServiceGenerator.java" />
+
     <!-- create services/api/models folder and sampleResponceModel java-->
     <instantiate from="root/src/app_package/services/api/models/SampleResponceModel.java.ftl"
     			   to="${escapeXmlAttribute(srcOut)}/services/api/models/SampleResponceModel.java" />
