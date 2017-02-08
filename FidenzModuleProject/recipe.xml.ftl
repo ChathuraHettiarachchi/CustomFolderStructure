@@ -21,6 +21,10 @@
     <instantiate from="root/src/app_package/adapters/SampleAdapter.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/adapters/SampleAdapter.java" />
 
+  <!-- create helper, constant  java-->
+    <instantiate from="root/src/app_package/helpers/Constant.java.ftl"
+                   to="${escapeXmlAttribute(srcOut)}/helpers/Constant.java" />
+
 	<!-- create helper, customlibrary folder and java-->
     <instantiate from="root/src/app_package/helpers/customlibrary/SampleCustomLibrary.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/helpers/customlibrary/SampleCustomLibrary.java" />
