@@ -6,20 +6,31 @@ This mobule will initialize a project with custom made folder set which will hel
 
 Mac OS
 ------
-You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.sh" download="initmodule">download</a> initmodule.sh, save it as All files and with the extension .sh
+<b>STEP 01.</b>
+
+You can run this on your terminal, this will download file.
 ```
-  initmodule.sh
+curl -O https://github.com/ChathuraHettiarachchi/CustomFolderStructure/blob/master/initmodule.sh
 ```
+or you can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.sh" download="initmodule">download</a> initmodule.sh, save it as All files and with the extension .sh
+```
+initmodule.sh
+```
+
+
+<b>STEP 02.</b>
 
 After downloading initmudule.sh you need to change file permission to full
 ```
-  chmod 777 initmodule.sh
+chmod 777 initmodule.sh
 ```
+
+<b>STEP 03.</b>
 
 then all you need to do is run the bash script. 
 NOTE: Please do not use sudo access
 ```
-  ./initmodule.sh
+./initmodule.sh
 ```
 
 <img width="1024" alt="bbb" src="https://cloud.githubusercontent.com/assets/13764097/22724101/f9a55d5c-ede9-11e6-852e-c5ff2e325331.png">
@@ -35,18 +46,18 @@ if any error occured or you don't have git installed, you can try the mannual wa
 
 Just clone this repo and copy "FidenzModelProject" to following location
 ```
-  C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\
+C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\
 ```
 
 Direct copy paths (Mac OS, Windows)
 -----------------------------------
 (Mac OS) If any crash happen you can mannualy clone this repo and copy "FidenzModelProject" to
 ```
-  Applications/Android Studio.app/Contents/plugins/android/lib/templates/activities/
+Applications/Android Studio.app/Contents/plugins/android/lib/templates/activities/
 ```
 (Windows) Just clone this repo and copy "FidenzModelProject" to following location
 ```
-  C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\
+C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\
 ```
 
 Just give Android Studio a restart, select new project, choose Fidenz module project. 
