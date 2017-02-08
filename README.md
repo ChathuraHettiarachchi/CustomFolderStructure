@@ -27,8 +27,8 @@ chmod 777 initmodule.sh
 
 <b>STEP 03.</b>
 
-then all you need to do is run the bash script. 
-NOTE: Please do not use sudo access
+then all you need to do is run the bash script.
+<b>NOTE: Please do not use sudo access</b>
 ```
 ./initmodule.sh
 ```
