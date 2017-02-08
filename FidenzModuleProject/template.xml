@@ -2,9 +2,9 @@
 <template
     format="5"
     revision="5"
-    name="Fidenz module project"
+    name="Fidenz project template"
     minApi="9"
-    minBuildApi="14"
+    minBuildApi="16"
     description="This will initialize whole folder structure to your application. For more info, contact chathura.h@fidenz.com">
 
     <category value="Activity" />
@@ -49,7 +49,49 @@
         type="boolean"
         default="true"
         help="If false, this activity base class will be Activity instead of AppCompatActivity" />
+
+    <parameter
+        id="includesplash"
+        name="Do you need to include splash screen?"
+        type="boolean"
+        default="true"
+        help="If true, splash activity will be generated with new design. This will include sample to generate drawable, sample png file, style change, manifaiest changes." />
     
+    <parameter
+        id="includeretrofit"
+        name="Do you need to include Retrofit to your project?"
+        type="boolean"
+        default="false"
+        help="If true, default Retrofit and GSON dependecies will be added to your build.gradle." />
+
+    <parameter
+        id="includedatabase"
+        name="Do you need to include ORMLite to your project?"
+        type="boolean"
+        default="false"
+        help="If true, default ORMLite dependecies will be added to your build.gradle, DatabaseHelper.java will generated and populate sample code segments." />
+
+    <parameter
+        id="includerecycleclick"
+        name="Include Android RecyclerView item click handling lib"
+        type="boolean"
+        default="false"
+        help="If true, library at https://github.com/ChathuraHettiarachchi/RecycleClick will be included to your project" />
+
+    <parameter
+        id="includesnackbar"
+        name="Include custom Snackbar to your project"
+        type="boolean"
+        default="false"
+        help="If true, library at https://github.com/ChathuraHettiarachchi/CSnackBar will be included to your project" />
+
+    <parameter
+        id="includeotherneededlibs"
+        name="Include other resourcefull libraries for basic project"
+        type="boolean"
+        default="false"
+        help="If true, this will allow to add Picasso, RecyclerView, CardView and Butterkinfe library dependencies to your project" />
+
     <parameter
         id="packageName"
         name="Package name"

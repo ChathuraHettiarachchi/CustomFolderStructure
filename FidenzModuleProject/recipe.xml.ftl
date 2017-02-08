@@ -7,11 +7,44 @@
     <open file="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
 </#if>
 
+  <merge from="root/AndroidManifest.xml.ftl"
+             to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml" />
+
+<#if includeretrofit>
+  <merge from="root/buildRetrofit.gradle"
+             to="${escapeXmlAttribute(projectOut)}/build.gradle" />
+</#if>
+
+<#if includedatabase>
+  <merge from="root/buildORMlite.gradle"
+             to="${escapeXmlAttribute(projectOut)}/build.gradle" />
+</#if>
+
+<#if includerecycleclick>
+  <merge from="root/buildRecycle.gradle"
+             to="${escapeXmlAttribute(projectOut)}/build.gradle" />
+</#if>
+
+<#if includesnackbar>
+  <merge from="root/buildSnack.gradle"
+             to="${escapeXmlAttribute(projectOut)}/build.gradle" />
+</#if>
+
+<#if includeotherneededlibs>
+  <merge from="root/buildOther.gradle"
+             to="${escapeXmlAttribute(projectOut)}/build.gradle" />
+</#if>
+
+
 	<!-- create activity class and open it-->
     <instantiate from="root/src/app_package/activities/SimpleActivity.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/activities/${activityClass}.java" />
 
 	<open file="${escapeXmlAttribute(srcOut)}/activities/${activityClass}.java" />
+
+  <!-- create ProjectApplication java-->
+    <instantiate from="root/src/app_package/ProjectApplication.java.ftl"
+                   to="${escapeXmlAttribute(srcOut)}/ProjectApplication.java" />
 
 	<!-- create folder fragments and add java-->
     <instantiate from="root/src/app_package/fragments/SampleFragment.java.ftl"
