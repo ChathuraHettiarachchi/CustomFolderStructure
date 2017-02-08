@@ -21,7 +21,7 @@ echo.
 echo Almost done...
 echo.
 if exist "C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\FidenzModuleProject" rd /s /q "C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\FidenzModuleProject"
-xcopy "%USERPROFILE%\Desktop\ChootaDev\CustomFolderStructure\FidenzModuleProject" "C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\" /E
+xcopy "%USERPROFILE%\Desktop\ChootaDev\CustomFolderStructure\FidenzModuleProject" "C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\FidenzModuleProject" /e/r/c/i/d/y/s/H/m
 echo Copying new template success.....
 echo.
 rd /s /q "%USERPROFILE%\Desktop\ChootaDev"
