@@ -1,4 +1,4 @@
-package ${packageName}.helper;
+package ${packageName}.helpers;
 
 /**
  * Created by Choota.
