@@ -3,8 +3,7 @@ This will provide custom folder structure, custom activity module to your Androi
 
 Mac OS
 ------
-
-Download bash file to you Mac desktop
+You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.sh" download="initmodule">download</a> initmodule.sh, save it as All files and with the extension .sh
 ```
   initmodule.sh
 ```
@@ -19,6 +18,9 @@ NOTE: Please do not use sudo access
 ```
   ./initmodule.sh
 ```
+
+<img width="1024" alt="bbb" src="https://cloud.githubusercontent.com/assets/13764097/22724101/f9a55d5c-ede9-11e6-852e-c5ff2e325331.png">
+
 
 Windows
 -------
