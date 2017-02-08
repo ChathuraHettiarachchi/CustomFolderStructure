@@ -49,7 +49,8 @@ Direct copy paths (Mac OS, Windows)
   C:\Program Files\Android\Android Studio\plugins\android\lib\templates\activities\
 ```
 
-Just give Android Studio a restart, enjoy :)
+Just give Android Studio a restart, select new project, choose Fidenz module project. That's all... 
+enjoy :)
 
 
 <img width="1024" alt="aaa" src="https://cloud.githubusercontent.com/assets/13764097/22692260/1da6a5f2-ed64-11e6-8413-b98a2cd548e1.png">
