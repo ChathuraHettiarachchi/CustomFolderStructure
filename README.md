@@ -42,7 +42,8 @@ You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomF
 
 <b>STEP 02.</b>
 
-Just only need to run initmodule.bat with administrator.
+Just only need to run initmodule.bat with admin privilages. 
+<b>To do that, right click on initmodule.bat run as Administrator.</b>
 
 </br>
 
