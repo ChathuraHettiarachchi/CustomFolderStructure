@@ -1,5 +1,6 @@
 #!/bin/bash
 # Ask the user for android studio version
+echo ------------------------------------------------------------------
 echo Hello there...!
 sleep 0.5
 echo This is a custom module that can use in Android Studio.
@@ -45,3 +46,4 @@ echo Thank you for using Fidenz template,
 echo Find more helpful stuff,
 echo "https://github.com/ChathuraHettiarachchi"
 echo ""
+echo ------------------------------------------------------------------
