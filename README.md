@@ -37,7 +37,7 @@ Direct copy paths (Mac OS, Windows)
 -----------------------------------
 (Mac OS) If any crash happen you can mannualy clone this repo and copy "FidenzModelProject" to
 ```
-  Android Studio.app/Contents/plugins/android/lib/templates/activities/
+  Applications/Android Studio.app/Contents/plugins/android/lib/templates/activities/
 ```
 (Windows) Just clone this repo and copy "FidenzModelProject" to following location
 ```
