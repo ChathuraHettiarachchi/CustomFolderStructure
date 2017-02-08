@@ -1,6 +1,9 @@
 # CustomFolderStructure
 This will provide custom folder structure, custom activity module to your Android Studio.
 
+<img align="right" src="https://cloud.githubusercontent.com/assets/13764097/22724334/72737db2-edeb-11e6-8c72-e24eedaf3fd4.png">
+This mobule will initialize a project with custom made folder set which will help you to manage your Android project in a good manner. DatabaseManager.java already implemented. Sample alert, callbacks have included. Some files contain neccessary codes, imports and gradle dependecies in comments. Feel free to update this template :)
+
 Mac OS
 ------
 You can <a href="https://raw.githubusercontent.com/ChathuraHettiarachchi/CustomFolderStructure/master/initmodule.sh" download="initmodule">download</a> initmodule.sh, save it as All files and with the extension .sh
