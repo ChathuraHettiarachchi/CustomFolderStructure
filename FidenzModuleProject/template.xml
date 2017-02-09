@@ -52,21 +52,21 @@
 
     <parameter
         id="includesplash"
-        name="Do you need to include splash screen?"
+        name="Add splash screen"
         type="boolean"
         default="true"
         help="If true, splash activity will be generated with new design. This will include sample to generate drawable, sample png file, style change, manifaiest changes." />
     
     <parameter
         id="includeretrofit"
-        name="Do you need to include Retrofit to your project?"
+        name="Include Retrofit to your project"
         type="boolean"
         default="false"
         help="If true, default Retrofit and GSON dependecies will be added to your build.gradle." />
 
     <parameter
         id="includedatabase"
-        name="Do you need to include ORMLite to your project?"
+        name="Include ORMLite to your project"
         type="boolean"
         default="false"
         help="If true, default ORMLite dependecies will be added to your build.gradle, DatabaseHelper.java will generated and populate sample code segments." />
