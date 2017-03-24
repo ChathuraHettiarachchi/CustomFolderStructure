@@ -1,6 +1,12 @@
 # CustomFolderStructure
 This will provide custom folder structure, custom activity module to your Android Studio.
 
+
+<b><h3><font color="red">NOTE : Please use this template only to create new project. Since this will create entire project structure, this is not suitable for making new activity when using Android Studio.</font></h3></b>
+
+
+<img width="1024" alt="libintro" src="https://cloud.githubusercontent.com/assets/13764097/23550428/c61c761e-0036-11e7-8790-89fd5de8bb48.png">
+
 <img height="680" align="right" src="https://cloud.githubusercontent.com/assets/13764097/22727685/3638edea-ee00-11e6-8b01-6635b251ba98.png">
 This mobule will initialize a project with custom made folder set which will help you to manage your Android project in a good manner. DatabaseManager.java already implemented. Sample alert, callbacks have included. Some files contain neccessary codes, imports and gradle dependecies in comments. Feel free to update this template :)
 
@@ -72,6 +78,9 @@ enjoy :)
 
 
 <img width="1024" alt="aaa" src="https://cloud.githubusercontent.com/assets/13764097/22692260/1da6a5f2-ed64-11e6-8413-b98a2cd548e1.png">
+</br>
+<img width="1024" alt="eee" src="https://cloud.githubusercontent.com/assets/13764097/22769888/e47a3dbc-eeb1-11e6-96ce-6d9c03e78942.png">
+
 
 Changelog
 ---------
@@ -79,6 +88,10 @@ Changelog
 * Fix support for Mac - initmodule.sh
 * Fix support for Windows - initmodule.bat
 * Added Constant.java
+* New feature to select libs
+* Service generator auto adding
+* DatabaseManger and DatabaseHelper creation
+* Create application class and init database
 </br>
 
 ## Author
