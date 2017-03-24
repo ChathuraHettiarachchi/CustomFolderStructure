@@ -59,7 +59,9 @@ public class ServiceGenerator {
 
 		public ServiceGenerator(Context context) {
 	        mContext = context;
-	        mUrl = mContext.getString(R.string.API_URL);
+	        // TODO: 3/24/17  Include you API_URL here
+	        // mUrl = mContext.getString(R.string.API_URL);
+	        mUrl = "https://google.com";
 	    }
     */
 

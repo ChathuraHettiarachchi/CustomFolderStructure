@@ -2,6 +2,8 @@ package ${packageName};
 
 import android.app.Application;
 
+import ${packageName}.database.DatabaseManager;
+
 /**
  * Created by Choota.
  */

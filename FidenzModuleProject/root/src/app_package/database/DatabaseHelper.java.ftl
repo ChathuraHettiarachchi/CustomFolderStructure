@@ -1,7 +1,7 @@
 package ${packageName}.database;
 
+import android.content.Context;
 <#if includedatabase>
-    import android.content.Context;
     import android.database.SQLException;
     import android.database.sqlite.SQLiteDatabase;
     import android.util.Log;

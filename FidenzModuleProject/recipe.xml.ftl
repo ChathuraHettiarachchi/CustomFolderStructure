@@ -1,15 +1,14 @@
 <?xml version="1.0"?>
 <recipe>
-    <#include "../common/recipe_manifest.xml.ftl" />
-
+   
 <#if generateLayout>
-    <#include "../common/recipe_simple.xml.ftl" />
-    <open file="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
+    <instantiate from="root/res/customview/activity_main.xml.ftl"
+         to="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
 </#if>
 
   <merge from="root/AndroidManifest.xml.ftl"
-             to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml" />
-
+             to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml" /> 
+             
 <#if includeretrofit>
   <merge from="root/buildRetrofit.gradle"
              to="${escapeXmlAttribute(projectOut)}/build.gradle" />
@@ -35,12 +34,37 @@
              to="${escapeXmlAttribute(projectOut)}/build.gradle" />
 </#if>
 
+<#if includecustomview>
+  <merge from="root/buildTypeFaced.gradle"
+             to="${escapeXmlAttribute(projectOut)}/build.gradle" />
+</#if>
 
-	<!-- create activity class and open it-->
+<#if includesplash>
+  <!-- create splash screen-->
+  <instantiate from="root/src/app_package/activities/SplashActivity.java.ftl"
+         to="${escapeXmlAttribute(srcOut)}/activities/SplashActivity.java" />
+
+  <instantiate from="root/res/layout/activity_splash.xml.ftl"
+         to="${escapeXmlAttribute(resOut)}/layout/activity_splash.xml" />
+
+  <copy from="root/res/drawable"
+                to="${escapeXmlAttribute(resOut)}/drawable" />
+</#if> 
+
+  <copy from="root/res/anim"
+                to="${escapeXmlAttribute(resOut)}/anim" />
+
+  <merge from="root/res/values/styles.xml.ftl"
+         to="${escapeXmlAttribute(resOut)}/values/styles.xml" />
+
+  <merge from="root/res/values/colors.xml.ftl"
+         to="${escapeXmlAttribute(resOut)}/values/colors.xml" />
+
+  <!-- create activity class and open it-->
     <instantiate from="root/src/app_package/activities/SimpleActivity.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/activities/${activityClass}.java" />
 
-	<open file="${escapeXmlAttribute(srcOut)}/activities/${activityClass}.java" />
+    <open file="${escapeXmlAttribute(srcOut)}/activities/${activityClass}.java" />
 
   <!-- create ProjectApplication java-->
     <instantiate from="root/src/app_package/ProjectApplication.java.ftl"
@@ -113,4 +137,8 @@
     <!-- create services/system/ folder and sample java-->
     <instantiate from="root/src/app_package/services/system/Sample.java.ftl"
     			   to="${escapeXmlAttribute(srcOut)}/services/system/Sample.java" />
+
+    <!-- add fragment -->
+    <instantiate from="root/res/layout/fragment_sample.xml.ftl"
+             to="${escapeXmlAttribute(resOut)}/layout/fragment_sample.xml" />
 </recipe>

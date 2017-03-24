@@ -1,5 +1,6 @@
 package ${packageName}.alerts;
 
+import android.content.Context;
 /**
  * Created by Choota.
  */

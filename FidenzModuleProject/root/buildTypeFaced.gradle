@@ -1,0 +1,3 @@
+dependencies {
+	compile 'com.chootdev:typefaced:1.1.7'
+}
