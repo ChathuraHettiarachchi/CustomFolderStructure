@@ -57,6 +57,9 @@
   <merge from="root/res/values/styles.xml.ftl"
          to="${escapeXmlAttribute(resOut)}/values/styles.xml" />
 
+  <merge from="root/res/values/strings.xml.ftl"
+         to="${escapeXmlAttribute(resOut)}/values/strings.xml" />
+
   <merge from="root/res/values/colors.xml.ftl"
          to="${escapeXmlAttribute(resOut)}/values/colors.xml" />
 
