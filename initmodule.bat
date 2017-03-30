@@ -10,7 +10,7 @@ echo.
 echo Please enter Android Studio Version (press enter to set version),
 set /p Version number=Enter your Android Version : 
 echo.
-echo Wow..nice. I hope you are using Mac machine, now let's configure new template.
+echo Wow..nice. I hope you are using Windows machine, now let's configure new template.
 echo Please wait for a second...
 echo.
 echo Cloning new template.....
