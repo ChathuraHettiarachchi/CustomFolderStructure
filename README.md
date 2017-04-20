@@ -82,7 +82,9 @@ enjoy :)
 </br>
 <img width="1024" alt="eee" src="https://cloud.githubusercontent.com/assets/13764097/24294793/f899cab4-10bd-11e7-8de9-58b1474c4c9f.png">
 
-<b><h3><font color="red">NOTE : Since this is a custom template pack, Android studio will give error on Android studio update. You need to remove this package before updating Android studio. :(</font></h3></b>
+
+<b><h3><font color="red">NOTE : Using this module may cause errors on updating android studio :( So to overcome this, you can use UninstallModule_mac for "MacOs" and UninstallModule_win on "Windows" </br></br>Happy coding... :)</font></h3></b>
+
 
 Changelog
 ---------
