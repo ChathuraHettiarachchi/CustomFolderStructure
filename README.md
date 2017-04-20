@@ -2,7 +2,7 @@
 This will provide custom folder structure, custom activity module to your Android Studio.
 
 
-<b><h3><font color="red">NOTE : Please use this template only to create new project. Since this will create entire project structure, this is not suitable for making new activity when using Android Studio. If you need to uninstall this module use Uninstall files according to your OS</font></h3></b>
+<b><h3><font color="red">NOTE : Please use this template only to create new project. Since this will create entire project structure, this is not suitable for making new activity when using Android Studio. </br></br>If you need to uninstall this module use Uninstall files according to your OS</font></h3></b>
 
 
 <img width="1024" alt="libintro" src="https://cloud.githubusercontent.com/assets/13764097/24295049/14eeb336-10bf-11e7-94bc-2400c7cb533a.png">
