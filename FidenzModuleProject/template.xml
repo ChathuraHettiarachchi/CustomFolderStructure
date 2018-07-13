@@ -5,8 +5,7 @@
     name="Internal Folder Structure"
     minApi="9"
     minBuildApi="16"
-    description="This will initialize complete folder structure to your application. You can add default libraries, splash screen navigation and some custom libraries by 'ChootDev'.
-    For more info, contact chathura93@yahoo.com">
+    description="This will initialize complete folder structure to your application.">
 
     <category value="Activity" />
     <formfactor value="Mobile" />
